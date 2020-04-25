@@ -1,0 +1,1089 @@
+@font-face {
+    font-family: 'behdad';
+    src: url('http://cdn.font-store.ir/fonts/behdad/Behdad-Regular.ttf') format('truetype')
+}
+
+* {
+    line-height: 1.4;
+    direction: rtl;
+    text-align: right;
+}
+
+body {
+    font-family: behdad;
+}
+
+.logo {
+    order: -1;
+    width: 176px;
+    height: 52px;
+    margin-top: 1.5%;
+    margin-right: 3%;
+}
+
+.logo-img {
+    height: 52px;
+}
+
+.nav_item {
+    display: flex;
+    align-items: center;
+}
+
+.nav_search_parent {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.icon {
+    font-size: 32px;
+    margin-right: 8px;
+}
+
+.custom-select {
+    height: 48px;
+    border: 1px solid #ebebeb;
+    border-right: 0px solid white;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.left-top-button {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    justify-content: center;
+}
+
+.top_header {
+    padding: 4px 0 0 0;
+    justify-content: center;
+    margin-right: 5 wh;
+}
+
+.selet-box {
+    height: 6px;
+}
+
+.btn_group {
+    display: flex;
+    height: 6vh;
+    padding: 0;
+}
+
+.nav_search_parent {
+    display: flex;
+}
+
+.search_input {
+    width: 100%;
+    border-left: 1px dashed white;
+    position: relative;
+}
+
+.submit {
+    position: relative;
+}
+
+.select-box {
+    width: 80%;
+}
+
+.btn :hover {
+    color: gray !important;
+    background-color: white !important;
+}
+
+.menu {
+    padding: 0;
+    color: black;
+    align-items: center;
+}
+
+a {
+    width: 150px;
+    height: 50px;
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu :hover {
+    background-color: #ff00af;
+}
+
+.bottom_header {
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 5px 6 black;
+    align-self: center;
+    margin-top: 8px;
+    height: 50px;
+}
+
+.nav-key {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    text-decoration: none;
+}
+
+.nav-key :hover {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_item {
+    display: flex;
+}
+
+.login {
+    order: 1;
+    margin-right: 5%;
+}
+
+.link-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+
+}
+
+.link-nav :hover {
+    text-decoration: none;
+}
+
+.red-link {
+    color: rgba(255, 0, 0, 0.9);
+}
+
+.purple-link :hover {
+    background-color: rgba(0, 0, 128, 0.8)
+}
+
+.searchbox {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #ebebeb;
+    border-right: 0px solid white;
+    border-left: 0px solid white;
+    border-radius: 0;
+    font-size: 14px;
+
+}
+
+.header__section {
+    background-color: #fff;
+    padding: 4px 0 0 0;
+}
+
+.submit {
+    order: -1;
+}
+
+.select-box {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    padding: 0px;
+}
+
+.login {
+    background-color: #6f45d2;
+    border-radius: 25px;
+    width: 116px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+.button_search {
+    background-color: white;
+    border: 1px solid #ebebeb;
+    border-radius: 0px 25px 25px 0px;
+    color: gray;
+    border-left: 0px solid white;
+    height: 59%;
+}
+
+.custom-select {
+    padding: 0;
+}
+
+.top_header {
+    padding: 0px;
+}
+.search_input{
+  margin-top: 3.7%;
+}
+.nav_item{
+  padding: 0;
+}
+.address-top {
+    margin-right: 21%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12px;
+    padding: 5px;
+
+
+}
+
+.address-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.child ::before {
+    content: " /";
+}
+
+.address-link :hover {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.address-link {
+    text-decoration: none;
+    color: black;
+}
+
+.char-in-container {
+    padding: 10px 15px;
+    width: 100%;
+    border: 1px solid #ebebeb;
+}
+
+.product-name {
+    font-size: 22px;
+    margin: 14px 0 10px 0;
+    text-align: right;
+
+}
+
+.container {
+    justify-content: center;
+}
+
+.all-of-content {
+  background: linear-gradient(45deg,#fafafa 0%,#f8f8f8 100%);
+}
+
+.char-in-container {
+    background-color: #fcfcfc;
+}
+
+.product-code {
+    font-size: 12px;
+}
+
+.carousel {
+    border: 1px solid #ebebeb;
+    margin-top: 7px;
+
+}
+
+.brand-details {
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.details-item {
+    color: black;
+}
+
+.details-item :hover {
+    text-decoration-line: none;
+}
+
+.category-div {
+    padding-bottom: 10px;
+}
+
+.price-parent {
+    padding: 0;
+    margin-top: 7%;
+}
+
+.price-span {
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+.old-new-price{
+  display: block;
+
+}
+.old-price {
+    color: red;
+    font-size: 34px;
+    text-decoration: line-through;
+    width: 100%;
+}
+
+.new-price {
+    color: #8029a4;
+    font-size: 36px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.add-to-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-right: 0;
+    background-color: #3d8901;
+    border: 1px solid #3d8901;
+    border-radius: 30px;
+    font-size: 21px;
+    color: white;
+    width: 100%;
+}
+
+.add-to-cart-parent {
+    padding: 0;
+    margin-bottom: 4%;
+}
+
+.cart-link {
+    order: 1;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+
+
+}
+
+.color-red-icon {
+    color: red;
+    font-size: 14px;
+}
+
+.gift-time {
+    color: gray;
+}
+
+.give-date-span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.give-date {
+    margin-top: 5%;
+}
+
+.add-to-cart-span {
+    padding: 7px 0 7px 0;
+}
+
+.add-button-link :hover {
+    text-decoration: none !important;
+}
+
+.aqsat {
+    border-radius: 60px;
+    background: #f8f8f8;
+    padding: 13px 11px;
+    margin-right: -6px;
+    margin-top: 20px !important;
+}
+
+.aqsat :first-child :hover {
+    text-decoration: none !important;
+}
+
+
+
+.fa-chek-div ::after {
+    content: "با پرداخت ماهیانه 53,440 تومان این کالا را اقساطی خریداری نمایید (مخصوص سبد خرید بالای 1 میلیون تومان)";
+    font-size: 11px;
+    color: #80298f;
+    font-weight: 400;
+}
+
+.material {
+    padding-right: 3%;
+    padding-top: 3%;
+    font-size: 14px;
+    margin-top: 7%;
+    border-right: 3px solid #80298f;
+    color: #656565;
+
+}
+
+.material-radio {
+    margin-right: 7%;
+}
+
+.material-radio ::after {
+    content: "پلاستیک";
+    color: #656565;
+
+}
+
+.product-color {
+    padding-right: 3%;
+    padding-top: 3%;
+    font-size: 14px;
+    margin-top: 7%;
+    border-right: 3px solid #80298f;
+    color: #656565;
+}
+
+.color-span {
+    color: #80298f;
+}
+
+.color-p {
+    display: inline;
+    color: #656565;
+
+}
+
+.img-color {
+    border-radius: 100%;
+    border: 1px solid #ebebeb;
+    margin-left: 2%;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.img-color-div :hover {
+    border: 2px solid gray;
+}
+
+.img-color-div {
+    margin-top: 4%;
+}
+
+.nokat-div {
+    color: #656565;
+    margin-top: 2%;
+}
+
+.star-div {
+    color: #80298f;
+    margin-top: 2.5%;
+    text-align: left;
+    padding-left: 4%;
+
+}
+
+.like {
+    margin-left: 1.5%;
+}
+
+.ray-p {
+    display: inline;
+    color: #656565;
+    margin: 0 1% 0 1%;
+}
+
+.bookmark-div {
+    order: -1;
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.product-help {
+    margin-top: 3.5%;
+    border: 1px solid #ebebeb;
+    padding: 2% 3% 0 0;
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.img-call {
+  margin-right: 5%;
+}
+
+.ul-help {
+    margin-right: 3%;
+    font-size: 13px;
+    color: #656565;
+}
+.product-help{
+  margin-top: 1.9%;
+  border: 1px solid #ebebeb;
+  display:flex;
+}
+.carousel-bottom-content{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2%;
+}
+.star-div{
+  height: 20%;
+  margin: 0;
+  padding: 0;
+}
+.like{
+  margin: 0;
+  margin-left: 5%;
+  font-size: 1.2rem;
+  width: 10%;
+}
+.like > span{
+  margin-left: 3%;
+}
+.comment{
+  font-size: 1.2rem;
+  margin: 0;
+  margin-left: 3%;
+  display: flex;
+  justify-content: flex-end;
+}
+.comment > span{
+  margin-left: 20%;
+}
+.ray-p{
+  margin-left: 3%;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.call-form{
+  width: 50%;
+}
+.input-mobile-number{
+  width: 100%;
+  height: 34px;
+  padding: 5%;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  transition: border-color ease-in-out .15s,box-shadow cubic-bezier(.6,-0.28,.74,.05) .15s;
+}
+.input-mobile-number :hover{
+  border-color: #80298f !important;
+}
+.call-with-you{
+  margin-right: 7%;
+}
+.submit-btn-form{
+  background-color: #448d44;
+  border-radius: 40px;
+  margin-right: 3%;
+
+}
+.submit-btn-form > input{
+  color: white;
+}
+.submit-btn-form > input :focus{
+  box-shadow: 0 0 0 .2rem white !important;
+}
+.kharid-omde-div{
+  display: flex;
+  margin-right: 7%;
+  text-decoration: underline;
+  color: #007bff;
+}
+.product-carousel-h3{
+  font-size: 14px;
+  padding-right: 1%;
+
+}
+.product-carousel-h3-div{
+  display: flex;
+  align-items: center;
+  height: 3%;
+  border-right: 3px solid #80298f;
+  margin-top: 2%;
+}
+
+
+#ThumbnailCarousel div {
+    height:250px;
+    width:100%;
+}
+
+#ThumbnailCarousel.carousel {
+    padding-top:30px;
+    text-align:center;
+}
+
+.col-md-3 .img-thumbnail {
+    height:100%;
+
+}
+.product-carousel-css{
+  border: 0px solid white;
+}
+.owl-items{
+    display: flex;
+}
+.nav-tabs{
+  background-color: #ebebeb;
+}
+.baresi{
+  margin-top: 8%;
+  padding: 10px 15px;
+  border: 1px solid #ebebeb;
+  font-size: 14px;
+}
+.baresi-content{
+  padding: 10px 15px;
+}
+.baresi-content-h2{
+  margin-top: 5%;
+  font-size: 18px;
+  margin: 15px 0;
+}
+.table-product{
+
+  font-size: 14px;
+}
+.baresi-h6{
+  font-size: 12px;
+}
+.td-1{
+  width: 50%;
+}
+.table-div{
+  padding: 0;
+}
+
+.download-btn{
+  background-color: #b9000e;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  padding-top: 5px;
+  font-size: 16px;
+  height: 3%;
+  border-radius: 5px;
+
+}
+.download-btn > a{
+  width: 100%;
+  height: 3%;
+  margin-right: 4%;
+}
+.download-btn > a :hover{
+  text-decoration: none;
+}
+.warranty-parrent{
+  order:-1;
+  color: #eee;
+  font-size: 14px;
+  margin-right: 3%;
+
+}
+.button-line-download{
+  width: 100%;
+
+}
+.pdf-icon{
+    color: #eee;
+    margin-right: .5%;
+    font-size: 20px;
+    text-align: left;
+    padding: 0;
+}
+.pdf-icon-parrent{
+  order: 1;
+
+}
+.pdf-text-parrent{
+  color: #eee;
+  padding: 0;
+  margin-right: 5%;
+
+}
+.pdf-text{
+  text-align: left;
+  padding: 0;
+}
+.tozihat-h2 > h2{
+  font-size: 18px;
+  padding-right: 1.5%;
+
+}
+.tozihat-h2{
+  border-right: 3px solid purple;
+
+}
+.tozihat-p{
+  color: gray;
+  font-size: 15px;
+  margin-top: 4%;
+}
+.product-tag{
+  margin-top: 2%;
+  padding-top: 5%;
+  width: 45%;
+  border-top: 1px solid #ebebeb;
+
+}
+.product-tag-p {
+  margin-right: 15px;
+}
+.tag-span{
+  background-color: #bba5f0;
+  margin-right: 1.5%;
+  padding: 5px;
+  border-radius: 25px;
+}
+.khooger-info{
+  margin-top: 3%;
+  padding: 15px;
+  border: 1px solid #ebebeb;
+}
+.info-image{
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+.info-image-text{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5%;
+  color: #656565;
+  font-size: 13px;
+
+}
+.info-image-bottom{
+  border-bottom: 1px solid #ebebeb;
+  margin: 0 8px;
+}
+.taahod-khooger{
+  margin-top: 5%;
+}
+.zemanat-keyfiat{
+  padding: 15px 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+.zemanat-keyfiat-h4{
+  margin: 10px 0 20px 0;
+  font-size: 18px;
+}
+.zemanat-keyfiat > p{
+  font-size:15px;
+  color: #656565;
+}
+.ersal-raygan{
+  display: flex;
+  justify-content: center;
+
+}
+.free-del{
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  padding: 15px 10px 5px 5px;
+  margin-right: 5%;
+
+}
+.ersal-raygan-h5{
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  color: #656565;
+}
+.ersal-raygan-p{
+  font-size: 14px;
+  color: #656565;
+  display: flex;
+  justify-content: center;
+}
+.fast-delivery{
+  margin-top: 4%;
+}
+.img-delivery{
+  padding-top: 2%;
+  padding-left: 0;
+  margin-right: 15px;
+}
+.fast-time > p{
+  color: #656565;
+  font-size: 13px;
+  padding: 0 8px 0 0;
+}
+.qeymat-div > p{
+  color: #656565;
+  font-size: 13px;
+  padding: 0 8px 0 0;
+}
+.lossgraph{
+  margin-top: 85%;
+}
+.khadamat-img{
+  margin-top: 85%;
+}
+.img-question{
+  display: flex;
+  justify-content: center;
+}
+.content-question-h5{
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  color: #656565;
+}
+.content-question-p{
+  display: flex;
+  justify-content: center;
+
+}
+.content-question-p > p{
+  text-align: center;
+  color: #656565;
+  font-size: 13px
+}
+.khadamat-div > p{
+  color: #656565;
+  font-size: 13px
+}
+.call-number{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #656565;
+}
+.question-info{
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+.question-info > p{
+  text-align: center;
+}
+.question-div{
+  border: 1px solid #ebebeb;
+  margin-right: 2.7%;
+  border-radius: 5px;
+}
+.comment-btn{
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+
+}
+.comment-div{
+  background-color: dodgerblue;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding-top: 5%;
+  border-radius: 25px;
+  height: 80%;
+  color: #eee;
+}
+.product-gift{
+  border: 1px solid #ebebeb;
+  padding: 15px 0;
+  display: flex;
+  margin-top: 2.5%;
+}
+.gift-image{
+  padding: 0 15px 0 15px;
+  margin-right: 15px;
+}
+.gift-info-h3 > h3{
+  font-size: 21px;
+
+}
+.gift-h3{
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.form-control > input{
+  width: 80%;
+}
+.form-button{
+  background-color: #448d44;
+  height: 37%;
+  border-radius: 20px;
+  color: #eee;
+  font-size: 14px;
+  padding: 5px;
+}
+.call-form-p > p{
+  text-align: center;
+}
+.call-form-input > input{
+  border-radius: 20px;
+  height: 35%;
+  padding: 5px;
+}
+.call-form-input{
+  display: flex;
+  justify-content:  space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.takhfif-div > a{
+  text-decoration: underline;
+  padding-top: 5%;
+}
+.takhfif-div{
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-right: 30px;
+}
+.call-with-us{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  font-size: 24px;
+  color: #80298f;
+}
+.call-with-us-p{
+  margin-left: 15px;
+
+}
+.news-center{
+  display: flex;
+  justify-content: center;
+}
+.news-center-p{
+  width: 100%;
+  margin-right: 36%;
+}
+.email-input > input{
+  width: 400px;
+  border-radius: 20px;
+  height: 100%;
+  padding: 5px;
+}
+.email-input{
+  margin-right: 10%;
+}
+.email-input > button{
+  border-radius: 20px;
+  height: 100%;
+  padding: 5px;
+  box-shadow: 0 3px 12px rgba(191,64,141,.7);
+  background: linear-gradient(45deg,#cd4a8e 0%,#79147e 100%);
+}
+.bottom-link{
+  display: flex;
+  justify-content: center;
+}
+.bottom-link{
+  display: flex;
+  margin-top: 3%;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-key-li{
+  display: flex;
+  justify-content: center;
+
+}
+.nav-link-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+.li-text {
+  font-size: 18px !important;
+  text-decoration: none;
+  width: 10%;
+  margin-bottom: 10%; !important;
+}
+.khadamat-li{
+  text-decoration: none;
+  color: black;
+}
+.ul-khadamat{
+  list-style: none;
+
+}
+.ul-khadamat > li > a
+{
+    color: black;
+}
+.ul-khadamat > li{
+  font-size: 13px;
+}
+.rahnama-kharid > li{
+  font-size: 13px;
+  text-decoration: none;
+}
+.manabea-list > li{
+  font-size: 13px;
+  text-decoration: none;
+}
+.manabea-list ul{
+  list-style: none;
+}
+.manabea-list > ul > li > a{
+  color: black;
+  font-size: 13px;
+  width: 50%;
+}
+.rahnama-kharid > ul{
+  list-style: none;
+}
+.rahnama-kharid > ul > li > a{
+  color: black;
+  font-size: 13px;
+  width: 30%;
+}
+.small-font{
+  font-size: 12px;
+}
+.email-input > button{
+  color: #eee;
+}
+.frist-link{
+  margin-bottom: 2%;
+}
+.follow-khooger-p{
+  padding-bottom: 4px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.khooger-news-list{
+  text-align: center;
+}
+.khooger-news-image{
+  margin-top: 10px;
+}
+.taeed-web{
+  padding: 0;
+}
+.social-div{
+  margin-top: 2%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  align-items: center;
+  margin-right: 38%;
+}
+.social-item{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
